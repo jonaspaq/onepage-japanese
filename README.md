@@ -1,5 +1,5 @@
 
-### One Page Japanese UI
+# One Page Japanese UI
 
 This is my first layout created using scss and gulp
 
