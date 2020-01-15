@@ -1,0 +1,25 @@
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar-{
+    &brand{
+        padding-left: 1rem !important;
+    }
+
+    &links{
+        display: inline;
+        color: #fff;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    &links > a{
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sass</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- FONT STYLE ROBOTO -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+    <nav class="container-fluid bg-dark">
+		<div class="container d-flex align-items-center">
+				<div class="navbar-brand text-white py-3">
+					<p>SITENAME</p>
+				</div>
+
+				<ul class="ml-auto p-0 list-unstyled">
+					<button class="emptyBtn pr-2 d-md-none" id="menu-button">
+						<img src="/assets/images/icons/menu-button.png" width="30px" height="30px" />
+					</button>
+		
+					<div id="navCollapse">
+						<li class="navbar-links">
+							<a href="#">HOME</a>
+						</li>
+						<li class="navbar-links">
+							<a href="#feature">FEATURE</a>
+						</li>
+						<li class="navbar-links">
+							<a href="#access">ACCESS</a>
+						</li>
+						<li class="navbar-links">
+							<a href="#news">NEWS</a>
+						</li>
+						<li class="navbar-links">
+							<a href="#contact">CONTACT</a>
+						</li>
+					</div>
+				</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid mainVisual">
+		<div class="container d-flex align-items-center h-100">
+			<!-- <h1 class="text-center text-dark w-100">MainVisual <br> or Carousel</h1> -->
+		</div>	
+	</div>
+
+	<div class="container mt-4" id="feature">
+		<h2 class="text-dark-gray featureHeader">FEATURE</h2>
+	</div>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-12 col-xl-4">
+				<div class="featureItem feature1 bg-gray">
+				</div>
+				<div class="featureDescription my-4 text-center">
+					<!-- Life is art and passion. Live a fulfilling life. -->
+					人生は芸術と情熱です。充実した人生を送る。
+				</div>
+			</div>		
+			<div class="col-12 col-xl-4">
+				<div class="featureItem feature2 bg-gray">
+				</div>
+				<div class="featureDescription my-4 text-center">
+					<!-- There is no love sincerer than the love of food. -->
+					食べ物の愛ほど誠実な愛はありません。
+				</div>
+			</div>
+			<div class="col-12 col-xl-4">
+				<div class="featureItem feature3 bg-gray">
+				</div>
+				<div class="featureDescription my-4 text-center">
+					<!-- It always seems impossible until it is complete. -->
+					それが完了するまで、それは常に不可能に思えます。
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<div class="container mt-4" id="access">
+		<h2 class="text-dark-gray featureHeader">ACCESS</h2>
+	</div>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-12">
+				<div class="featureItem bg-gray d-flex align-items-center">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27804084.12672812!2d120.26698394364531!3d31.714440679464378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2sJapan!5e0!3m2!1sen!2sph!4v1571822166091!5m2!1sen!2sph" height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+	<div class="container mt-4" id="news">
+		<h2 class="text-dark-gray featureHeader">NEWS</h2>
+	</div>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-12">
+				<div class="featureDescription">
+					<ul class="list-unstyled newsList">
+						<li>
+							<h3><strong>2018.04.10</strong></h3>
+							<a href="javascript:;" class="text-dark text-truncate ml-3">お知らせを更新しました。</a> 
+						</li>
+						<li>
+							<h3><strong>2018.04.10</strong></h3>
+							<a href="javascript:;" class="text-dark text-truncate ml-3">お知らお知らお知らお知らお知らお知らお知らせを更新しました。</a> 
+						</li>
+						<li>
+							<h3><strong>2018.04.10</strong></h3>
+							<a href="javascript:;" class="text-dark text-truncate ml-3">お知らお知らお知らお知らお知らお知らお知らせを更新しました。</a> 
+						</li>
+					</ul>
+
+					<button type="button" class="d-block mx-auto mt-4 newsButton bg-dark">News一覧へ</button>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+	<div class="container mt-5" id="contact">
+		<h2 class="text-dark-gray featureHeader">CONTACT</h2>
+	</div>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-12">
+				<div class="featureDescription pt-1">
+					<form>
+						<div class="row mt-2">
+							<div class="col-12 col-xl-3">
+								<label class="pt-1">名前</label>
+							</div>
+							<div class="col-12 col-xl-6">
+								<input type="text" class="formInput mt-2">
+							</div>
+							
+						</div>
+						
+						<div class="row mt-2">
+							<div class="col-12 col-xl-3">
+								<label class="pt-1">メールアドレス</label>
+							</div>
+							<div class="col-12 col-xl-6">
+								<input type="text" class="formInput mt-2">
+							</div>
+						</div>
+						
+						<div class="row mt-2">
+							<div class="col-12 col-xl-3">
+								<label class="pt-1">メッセージ</label>
+							</div>
+							<div class="col-12 col-xl-6">
+								<textarea class="formTextarea"></textarea>
+							</div>
+						</div>
+						<button type="button" class="d-block mx-auto mt-4 newsButton bg-dark"><strong>送信</strong></button>
+					</form>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+	<footer class="container-fluid text-white position-relative bg-dark d-flex align-items-center justify-content-center">
+		(C) コピーライト
+	</footer>
+
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
