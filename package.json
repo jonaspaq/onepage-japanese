@@ -1,9 +1,11 @@
 {
+  "private": true,
+
   "name": "onepageui",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp"
   },
   "dependencies": {
     "sass": "^1.23.0"
@@ -16,5 +18,5 @@
     "gulp-sass": "^4.0.2"
   },
   "author": "Jonas Paquibot",
-  "license": "ISC"
+  "license": "MIT"
 }

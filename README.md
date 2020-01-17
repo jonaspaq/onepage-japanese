@@ -15,7 +15,7 @@ In your project diretory run:
 `npm install`
 
 After that, run 
-`gulp`
+`npm run gulp`
 
 ## License
 
