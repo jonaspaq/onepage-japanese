@@ -1,0 +1,1 @@
+$(document).ready(()=>{var e=!1;$("#menu-button").click(()=>{e?($("#navCollapse").removeAttr("style"),$("body").removeAttr("style")):($("#navCollapse").css("height","100vh"),$("body").css("overflow","hidden")),e=!e})});
